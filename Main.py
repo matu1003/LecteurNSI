@@ -41,7 +41,7 @@ sons = {
 def pron_sounds(mes_sons):
 	mes_sons = [sons[i] for i in mes_sons]
 	for son in mes_sons:
-		playsound(son)
+		playsound("SonsMat/"+son)
 
 
 pron_sounds(["l", "u", "k", "a"])
@@ -51,7 +51,6 @@ pron_sounds(["è", "t", "in", "b", "o", "s"])
 # pron_sounds(["g", "è", "r", "é", "u", "s", "i"])
 # pron_sounds(["a", "t", "e", "f", "è", "r", "e", "d", "i", "r", "e", "n", "in", "p", "o", "r", "t", "e", "k", "oa"])
 
-epi = epitran.Epitran("IPA")
 
 
 
